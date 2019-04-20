@@ -102,3 +102,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+Matlab/bmcnn/
+Python/libs/lfnfilter/
+
+*.bin
+*.pyproj
+*.vcxproj
+*.sln
+*.filters
+*.user
+*.asv
+*.npy
+*.suo

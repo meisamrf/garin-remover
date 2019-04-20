@@ -2,7 +2,7 @@ clc
 close all
 clear
 
-disp("you can replace the BMCNN denoiser with any AWGN denoiser")
+disp("BMCNN can be replaced by any AWGN denoiser")
 
 model_weights = bmcnn_open('../models/bmcnn_16.bin');
 if model_weights(1)==0

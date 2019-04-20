@@ -11,6 +11,8 @@ Here is the block diagram of the LFNFilter.
 ![block diagram](figures/block_diagram.png)
 
 Here is a sample denoising result using [BMCNN](https://github.com/meisamrf/Image-denoising-tensorflow-keras).
+Methods designed to remove AWGN fail on removing grain noise (left). 
+Same method can be used in LFN architecture to remove grain (right).
 
 ![sample denoising](figures/compare.png)
 
